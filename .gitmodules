@@ -1,0 +1,3 @@
+[submodule "all_in_one_sentence_embeddings"]
+	path = all_in_one_sentence_embeddings
+	url = https://huggingface.co/spaces/ryancahildebrandt/all_in_one_sentence_embeddings

@@ -7,7 +7,9 @@ author: Ryan Hildebrandt, github.com/ryancahildebrandt
 # imports
 import pandas as pd
 import random
+import sys
 
+sys.path.append("/home/ryan/github/embs/all_in_one_sentence_embeddings")
 from cluster import *
 from dimredux import *
 from embeddings import *

@@ -6,7 +6,7 @@
 
 ## *Purpose*
 
-A project to provide tools to NLP data analysts (or anyone, really) for purposes of sentence embedding analyses.
+A project to provide tools to NLP data analysts (or anyone, really) working on tasks that may involve sentence embedding or clustering techniques.
 
 ---
 
@@ -16,5 +16,5 @@ The datasets used for the current project were pulled from [SciKit-Learn](https:
 ---
 
 ## Outputs
-+ The educational [report](https://datapane.com/reports/dkjbvwk/literature-in-bloom/), compiled with datapane and also in [html](./outputs/embs_rprt.html) format
-+ The HuggingFace.co Spaces [app](https://huggingface.co/spaces/ryancahildebrandt/embs), which allows for interactive implementation and exploration of sentence embedding techniques
++ The educational [report](https://datapane.com/reports/v7JNmd7/the-ex-academics-sentence-embedding-guide/), compiled with datapane and also in [html](./outputs/embs_rprt.html) format
++ The HuggingFace.co Spaces [app](https://huggingface.co/spaces/ryancahildebrandt/all_in_one_sentence_embeddings), which allows for interactive implementation and exploration of sentence embedding techniques

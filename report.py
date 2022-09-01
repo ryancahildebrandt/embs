@@ -9,7 +9,9 @@ import datapane as dp
 import markdown as md
 import random
 import re
+import sys
 
+sys.path.append("/home/ryan/github/embs/all_in_one_sentence_embeddings")
 from examples import *
 
 random.seed(42)
@@ -115,5 +117,5 @@ rprt = dp.Report(
 	)
 
 rprt.save(path = './outputs/embs_rprt.html', open=True)
-rprt.upload(name= "The Ex-Academic's Sentence Embedding Guide", open = True, publicly_visible = True)
-#https://datapane.com/reports/dkjbvwk/literature-in-bloom/
+#rprt.upload(name = "The Ex-Academic's Sentence Embedding Guide", open = True, publicly_visible = True)
+#https://datapane.com/reports/v7JNmd7/the-ex-academics-sentence-embedding-guide/
